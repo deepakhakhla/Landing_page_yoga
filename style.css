@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: url(main.jpg);
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.pose_y{
+    max-width: 30%;
+    height: 100%;
+
+}
+.pose_y img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+
+.register{
+    height: 100%;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.2); 
+    padding: 1.8rem;
+    border-radius: 50px;
+}
+.register p{
+    color: yellow;
+    font-size: 1.5rem;
+}
+.register span{
+    color: white;
+
+
+
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.register h1{
+    font-size: 2.8rem;
+    color: #fff;
+}
+button{
+    background-color: rgb(84, 149, 253);
+    color: #fff;
+    height: 3rem;
+    width: 12rem;
+    border: 1px solid  rgb(84, 149, 253);
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid  rgb(84, 149, 253);
+    color: #000;
+}
+
+footer{
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    
+}
+marquee{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
