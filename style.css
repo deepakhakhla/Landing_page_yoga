@@ -82,3 +82,18 @@ marquee{
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 800px) {
+    .main {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+    .register{
+        width: 90%;
+    }
+    .pose_y{
+        max-width: 90%;
+        height: 100%;
+    }
+  }
